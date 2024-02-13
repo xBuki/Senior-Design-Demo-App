@@ -3,7 +3,7 @@ import 'package:demo_app/pages/sign_up_page.dart';
 import 'package:flutter/material.dart';
 
 class ConsumerSignUpPage extends StatelessWidget {
-  const ConsumerSignUpPage({super.key});
+  const ConsumerSignUpPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -89,7 +89,7 @@ class ConsumerSignUpPage extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: 16.0),
               child: ElevatedButton(
                 onPressed: () {
-                  // Add functionality to create account here
+                  //
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.lightGreen,
@@ -110,7 +110,7 @@ class ConsumerSignUpPage extends StatelessWidget {
               child: Text(
                 'Already have an account? Login',
                 style: TextStyle(
-                  color: Colors.blue, // Change the color as desired
+                  color: Colors.blue,
                   decoration: TextDecoration.underline,
                 ),
               ),

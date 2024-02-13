@@ -116,9 +116,7 @@ class PhysicianSignUp extends StatelessWidget {
             ),
             SizedBox(height: 20),
             ElevatedButton(
-              onPressed: () {
-                // Add functionality to create account here
-              },
+              onPressed: () {},
               child: Text('Create Account'),
             ),
           ],
