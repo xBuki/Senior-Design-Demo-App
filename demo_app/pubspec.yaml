@@ -65,8 +65,7 @@ flutter:
   assets:
     - assets/images/car-logo.png
     - assets/images/car-road-logo.png
-    - assets/images/map-feed-image.jpeg
-    - assets/images/doctor-icon.jpg
+    - assets/images/physician-icon.png
     - assets/images/person-icon.jpeg
     - assets/images/consumer-icon.png
 

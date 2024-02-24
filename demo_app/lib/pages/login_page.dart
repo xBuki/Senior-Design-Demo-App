@@ -1,6 +1,6 @@
 import 'package:demo_app/pages/feed_page.dart';
 import 'package:demo_app/pages/home_page.dart';
-import 'package:demo_app/pages/welcome_page.dart';
+import 'package:demo_app/pages/old_welcome_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 

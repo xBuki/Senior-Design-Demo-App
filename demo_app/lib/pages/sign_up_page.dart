@@ -1,7 +1,7 @@
 import 'package:demo_app/pages/home_page.dart';
 import 'package:demo_app/pages/sign_up_consumer.dart';
 import 'package:demo_app/pages/sign_up_physician.dart';
-import 'package:demo_app/pages/welcome_page.dart';
+import 'package:demo_app/pages/old_welcome_page.dart';
 import 'package:flutter/material.dart';
 
 class SignUpPage extends StatelessWidget {
