@@ -1,4 +1,5 @@
 import 'package:demo_app/pages/homepage_page.dart';
+import 'package:demo_app/pages/login_page.dart';
 import 'package:demo_app/pages/welcome_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'App Name',
-      home: WelcomePageNew(),
+      home: LoginPage(),
     );
   }
 }
