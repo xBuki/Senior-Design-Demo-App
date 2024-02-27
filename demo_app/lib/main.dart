@@ -1,3 +1,4 @@
+import 'package:demo_app/pages/form_page.dart';
 import 'package:demo_app/pages/homepage_page.dart';
 import 'package:demo_app/pages/login_page.dart';
 import 'package:demo_app/pages/welcome_page.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'App Name',
-      home: LoginPage(),
+      home: FormPage(),
     );
   }
 }
